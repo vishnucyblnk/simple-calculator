@@ -1,0 +1,67 @@
+.calcHead{
+    color: blue;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+    
+}
+.calcContainer{
+    display: flex;
+    flex-direction: column;
+    box-shadow: #4b4b57 5px 0px 20px -1px;
+}
+
+.eachInp{
+    margin-bottom: 5px;
+}
+
+.eachRow{
+    display: grid;
+    grid-template-columns: repeat(4,1fr)
+}
+
+.display{
+    width: 21rem;
+    height: 5rem;
+    margin: 2px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 1rem;
+    border : 1px solid #0d0db6;
+    box-shadow: #4b4b57 5px 0px 20px -1px;
+    border-radius: 10px;
+}
+.eachButton{
+    height: 5rem;
+    margin: 2px;
+    background: #5E5DF0;
+    border-radius: 10%;
+    box-shadow: #4b4b57 5px 0px 20px -1px;
+    box-sizing: border-box;
+    color: #0a0505;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    touch-action: manipulation;
+    border: 0px;
+    
+}
+.eachButton:hover{
+    background: #3a3ab4;
+    color: #ffffff;
+    transform: translate3d(0px, 2px, 0px);
+}
+.eachEq{
+    grid-column: span 4;
+    border-radius: 10px;
+}
